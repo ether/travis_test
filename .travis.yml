@@ -6,7 +6,8 @@ node_js:
 # services:
 #  - docker
 
-os: linux
+#os: linux
+os: linux arch: arm64 dist: bionic
 
 cache: false
 
