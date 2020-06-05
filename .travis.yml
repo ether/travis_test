@@ -4,12 +4,11 @@ arch: arm64
 dist: bionic
 cache: false
 
-# sauce labs
-addons:
-  sauce_connect:
-    username: "etherpad"
-  jwt:
-    secure: "RVrOl1MyxzGaB/L6AWmcj8XWik4rN+tj+R+oiW363us2svI3Mq/uz9q+SmtpfZYBIj                                                                                eUYXIolL90TukqcEocPNlz/6H9PDPvw8CiDukXBNrgqpX443+bOPs9949ABBY5bRrJJux/VJ25EEr                                                                                5Zwu4+c6ecwTJzkzDlz9eHXSzWIvRJK1owhCRpAat2eikQlR23Co1BRfGL8O+UHtwbhCrTEWYwwuf                                                                                SMvkV74aMXMNCqdj9K4LRawTMD0wdSqal1dTLyqp/LjqBxiQtnzUiqh2o1dUzfR+m1W1iX66zzuLm                                                                                CohXW7gLJuvVL0tO4vM4PbfQ2aQciF0Ww09K/sypIPOd5PosfhYqfkgwM6ex2mlT9+3CRi6apd3e1                                                                                Izh7+YrO7JiOs78HHoEfUwljAtaB9nAvXiStTSVK9pswkAn1XX/goh8E4wr3x5SmI7K+GBaJWQxHg                                                                                S1+Qxv2BFnAisBIflO9rR617xB9uJvUdKUh0n5OiuZ0YUIriISF1nlNDQmSZf1bZxgvtlFNKTvl+X                                                                                hUm+rMc/WluYwJAIYh1pwaoJ7KJYDnh2BqWszjcE21POScQ7ZTU6sHrCSrEhcf2ZxupmoHQ0RNRIw                                                                                ly+XLKe/FO2UlQpgcouIz4LiqbviG5HWEqTgS/BKwj+iN71mhHVre2g8mZsMx6615bunh2PoaacWJ                                                                                E="
+# what are these used for?
+env:
+  global:
+    - secure: "WMGxFkOeTTlhWB+ChMucRtIqVmMbwzYdNHuHQjKCcj8HBEPdZLfCuK/kf4rG\nVLcLQiIsyllqzNhBGVHG1nyqWr0/LTm8JRqSCDDVIhpyzp9KpCJQQJG2Uwjk\n6/HIJJh/wbxsEdLNV2crYU/EiVO3A4Bq0YTHUlbhUqG3mSCr5Ec="
+    - secure: "gejXUAHYscbR6Bodw35XexpToqWkv2ifeECsbeEmjaLkYzXmUUNWJGknKSu7\nEUsSfQV8w+hxApr1Z+jNqk9aX3K1I4btL3cwk2trnNI8XRAvu1c1Iv60eerI\nkE82Rsd5lwUaMEh+/HoL8ztFCZamVndoNgX7HWp5J/NRZZMmh4g="
 
 # The job
 jobs:
