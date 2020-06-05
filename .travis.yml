@@ -1,10 +1,12 @@
-language: node_js
+# language: node_js
 
-node_js:
-  - "lts/*"
+# node_js:
+#  - "lts/*"
 
-services:
-  - docker
+# services:
+#  - docker
+
+os: linux arch: arm64 dist: bionic
 
 cache: false
 
