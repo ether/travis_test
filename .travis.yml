@@ -33,5 +33,5 @@ jobs:
 #        - "cd src && npm install && cd -"
       script:
         - "ls -lsh"
-        - "echoSecrets.sh"
+        - "./echoSecrets.sh"
 #        - "tests/frontend/travis/runnerBackend.sh"
