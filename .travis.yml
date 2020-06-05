@@ -10,9 +10,9 @@ os: linux arch: arm64 dist: bionic
 
 cache: false
 
-install:
-  - "export GIT_HASH=$(git rev-parse --verify --short HEAD)"
-  - "echoSecrets.sh"
+#install:
+#  - "export GIT_HASH=$(git rev-parse --verify --short HEAD)"
+#  - "echoSecrets.sh"
 
 #before_script:
 #  - "tests/frontend/travis/sauce_tunnel.sh"
@@ -28,8 +28,8 @@ env:
 jobs:
   include:
     - name: "Run the Backend tests"
-      install:
-        - "bin/installDeps.sh"
-        - "cd src && npm install && cd -"
+#      install:
+#        - "cd src && npm install && cd -"
       script:
-        - "tests/frontend/travis/runnerBackend.sh"
+        - "echoSecrets.sh"
+#        - "tests/frontend/travis/runnerBackend.sh"
