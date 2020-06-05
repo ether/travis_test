@@ -1,7 +1,8 @@
 # for fast boot
-os: linux
-arch: arm64
-dist: bionic
+# os: linux
+# arch: arm64
+# dist: bionic
+
 cache: false
 
 # saucelabs credentials
