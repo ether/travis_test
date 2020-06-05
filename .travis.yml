@@ -6,9 +6,9 @@ node_js:
 # services:
 #  - docker
 
-#os: linux
-os: linux arch: arm64 dist: bionic
-
+os: linux
+arch: arm64
+dist: bionic
 cache: false
 
 #install:
@@ -32,5 +32,6 @@ jobs:
 #      install:
 #        - "cd src && npm install && cd -"
       script:
+        - "ls -lsh"
         - "echoSecrets.sh"
 #        - "tests/frontend/travis/runnerBackend.sh"
